@@ -113,10 +113,6 @@ transition-property: color;
     background-color: var(--fourth-color);
     border-radius: 2px;
 }
-
-.contacts-addresses {
-font-style: normal;
-}
 .contact {
     font-family: 'Roboto', sans-serif;
 font-size: 16px;
@@ -128,8 +124,13 @@ transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.contacts-addresses {
+       display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contact-list {
-    display: flex;
+display: flex;
     gap: 40px;
 }
 .contact-list .contact:is(:hover, :focus) {
