@@ -456,7 +456,7 @@ margin-right: 24px;
 .portfolio-card:not(:nth-child(n+7)) {
     margin-bottom: 48px ;
 }
-.portfolio-link:hover .text-on-image {
+.portfolio-link:is(:hover, :focus) .text-on-image {
 transform: translateY(0px);
 }
 .portfolio-wrap {
